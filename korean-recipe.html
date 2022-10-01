@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Single Recipe || Final</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+    <!-- normalize -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <!-- nav  -->
+    <nav class="navbar">
+      <div class="nav-center">
+        <div class="nav-header">
+          <a href="index.html" class="nav-logo">
+            <img src="./assets/logo.svg" alt="simply recipes" />
+          </a>
+          <button class="nav-btn btn">
+            <i class="fas fa-align-justify"></i>
+          </button>
+        </div>
+        <div class="nav-links">
+          <a href="index.html" class="nav-link"> home </a>
+          <a href="about.html" class="nav-link"> about </a>
+
+          <div class="nav-link contact-link">
+            <a href="contact.html" class="btn"> contact </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- end of nav -->
+    <main class="page">
+      <div class="recipe-page">
+        <section class="recipe-hero">
+          <img
+            src="./assets/recipes/recipe-44.jpg"
+            class="img recipe-hero-img"
+          />
+          <article class="recipe-info">
+            <h2>Korean Fried Spicy Chicken</h2>
+            <p>
+              Tasty Spicy Korean Fried Chicken and Rice is a favourite, very
+              easy to make. When re-heated, tastes even better.
+            </p>
+            <div class="recipe-icons">
+              <article>
+                <i class="fas fa-clock"></i>
+                <h5>prep time</h5>
+                <p><5 min.</p>
+              </article>
+              <article>
+                <i class="far fa-clock"></i>
+                <h5>cook time</h5>
+                <p>25 mins</p>
+              </article>
+              <article>
+                <i class="fas fa-user-friends"></i>
+                <h5>serving</h5>
+                <p>4 servings</p>
+              </article>
+            </div>
+          </article>
+        </section>
+        <!-- content -->
+        <section class="recipe-content">
+          <article>
+            <h4>instructions</h4>
+            <!-- single instruction -->
+            <div class="single-instruction">
+              <header>
+                <p>step 1</p>
+                <div></div>
+              </header>
+              <p>
+                Firstly, start cooking rice in rice cooker. Cut chicken into
+                smaller pieces and transfer to a bowl. Season with salt, pepper
+                and garlic powder. Mix thoroughly. In a seperate bowl add potato
+                starch, you can add more if you need to when you need it. Coat
+                each piece of chicken and set aside.
+              </p>
+            </div>
+            <!-- end of single instruction -->
+            <!-- single instruction -->
+            <div class="single-instruction">
+              <header>
+                <p>step 2</p>
+                <div></div>
+              </header>
+              <p>
+                Heat up some oil and fry the chicken for 3-5mins on each side
+                until chicken is cooked through. It is optimal to re fry chicken
+                for 2 minutes each side. Once done, transfer chicken to a
+                cooling rack.
+              </p>
+            </div>
+            <!-- end of single instruction -->
+            <!-- single instruction -->
+            <div class="single-instruction">
+              <header>
+                <p>step 3</p>
+                <div></div>
+              </header>
+              <p>
+                In a pan, add soy sauce, mirin, brown sugar, apple cider
+                vinegar, honey, minced garlic, grated ginger, sesame oil and
+                gochujang. Heat on high and mix until it starts to bubble, add
+                the chicken and mix until evenly coated.
+              </p>
+            </div>
+            <!-- end of single instruction -->
+            <!-- single instruction -->
+            <div class="single-instruction">
+              <header>
+                <p>step 3</p>
+                <div></div>
+              </header>
+              <p>
+                Sprinkle sesame seeds and chopped spring onion and plate up with
+                rice and enjoy :)
+              </p>
+            </div>
+            <!-- end of single instruction -->
+          </article>
+          <article class="second-column">
+            <div>
+              <h4>ingredients</h4>
+              <p class="single-ingredient">
+                1kg breast or boneless thigh chicken
+              </p>
+              <p class="single-ingredient">200g of rice</p>
+              <p class="single-ingredient">vegetable oil for frying</p>
+              <p class="single-ingredient">100g potato starch</p>
+              <p class="single-ingredient">2 tbsp soy sauce</p>
+              <p class="single-ingredient">2 tbsp sesame oil</p>
+              <p class="single-ingredient">3 tbsp mirin</p>
+              <p class="single-ingredient">2 tbsp brown sugar</p>
+              <p class="single-ingredient">1 tbsp apple cider vinegar</p>
+              <p class="single-ingredient">2 tbsp honey</p>
+              <p class="single-ingredient">2 garlic cloves minced</p>
+              <p class="single-ingredient">1 tbsp grated ginger</p>
+              <p class="single-ingredient">1 tbsp gochujang</p>
+              <p class="single-ingredient">
+                Sesame seeds and spring onion to garnish
+              </p>
+            </div>
+            <div>
+              <h4>tools</h4>
+              <p class="single-tool">Pan</p>
+              <p class="single-tool">Sharp Knife</p>
+              <p class="single-tool">Rice cooker is optimal</p>
+            </div>
+          </article>
+        </section>
+      </div>
+    </main>
+    <!-- footer -->
+    <footer class="page-footer">
+      <p>
+        &copy; <span id="date"></span>
+        <span class="footer-logo">SimplyRecipes</span>
+      </p>
+    </footer>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
